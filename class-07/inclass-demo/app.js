@@ -10,6 +10,7 @@ function getName(){
   return userName;
 }
 
+//  **** SEE LINE 14 OF INDEX.HTML FOR HOW I AM INVOKING/CALLING/USING THE GETNAME FUNCTION
 
 function greetUser(name){
   if(name == ''){
@@ -18,11 +19,14 @@ function greetUser(name){
   document.write('Welcome ' + name + '!');
 }
 
+// *** SEE LINE 28 OF INDEX.HTML FOR I AM CALLING THIS FUNCTION AND PASSING IT AN ARGUMENT
 
 function getAge(){
   let userAge = prompt('How old are you?');
   return userAge;
 }
+
+//  **** SEE LINE 15 OF INDEX.HTML FOR HOW I AM INVOKING/CALLING/USING THE GETAGE FUNCTION
 
 function specialMessage(age){
   if(age == ''){
@@ -36,11 +40,14 @@ function specialMessage(age){
   } else {
     document.write('Keep doing you!');
   }
-
 }
 
+// *** SEE LINE 60 OF INDEX.HTML FOR I AM CALLING THIS FUNCTION AND PASSING IT AN ARGUMENT
 
-// **** FUNCTIONS *****
+
+
+
+// ********************* FUNCTIONS **********************************
 
 // *** ANATOMY OF A FUNCTION ***
 
